@@ -69,7 +69,7 @@ html {
 body {
     font-family:"Public Sans",
         sans-serif;
-    background: var(--bg-body-color);
+    background: var(--clr-grey-10);
     color: var(--body-color);
     line-height: 1.5;
     font-size: 0.875rem;
@@ -133,7 +133,7 @@ p {
 img{
     width: 100%;
     object-fit: contain;
-    height: 100%;
+
 }
 
 .nav-toggle-btn {
@@ -245,4 +245,48 @@ header {
     width: 6rem;
     background-color: red;
     display: block;
+}
+
+/*rum section style*/
+.our-rums{
+    background-color: var(--clr-grey-6);
+    color:#fff;
+    text-align: center;
+    padding: 2rem;
+    max-height: 100vh;
+}
+.our-rums h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.our-rums h1 span{
+    color: red;
+}
+.rum-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+}
+
+.rum{
+    height: 40%;
+    background-color: #fff;
+    position: relative;
+    border-radius: var(--radius);
+}
+
+.rum img{
+    max-width: 100%;
+    object-fit: contain;
+    max-height: 80%;
+}
+
+.rum-paragraph{
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+background: var(--clr-grey-3);
+    color: var(--clr-white);
+    text-align: center;
 }
