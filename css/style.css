@@ -343,6 +343,25 @@ background:var(--clr-dark-bg);
     opacity: 0.9;
 }
 
+/*logo style*/
+.logo-link{
+    position:relative;
+
+}
+
+.logo-text{
+    position:absolute;
+    font-size: 1rem;
+    font-weight: 400;
+    bottom:-0.8rem;
+    left: 3.2rem;
+    
+}
+
+.logo{
+    width: 10rem;
+}
+/*========================*/
 
 /* footer section*/
 footer{
@@ -370,6 +389,11 @@ footer .footer-social{
 }
 
 /* footer media query*/
-@media screen and (min-width : 800px){
-
+@media screen and (min-width : 768px){
+    footer .container{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
 }
+
