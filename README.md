@@ -1,5 +1,5 @@
 # Barbencourt landing page
-This project design the a product landing page .This is one of the freeCodeCamp's responsive web design required projects to get my certificate.
+This project consisted in designing  a product landing page .This is one of the freeCodeCamp's responsive web design required projects to get my certificate.
 
 ## Build with:
 * HTML5
@@ -14,7 +14,7 @@ To get started with this project, follow the instructions below :
 
 Clone the project using git clone or just copy the command below:
 ```bash
-git clone https://github.com/Sarilus-Blaise/documentation-page.git
+git clone https://github.com/Sarilus-Blaise/product-landing-page.git
 ```
 
 
@@ -26,5 +26,5 @@ git clone https://github.com/Sarilus-Blaise/documentation-page.git
 
 # Contributing
 Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](https://github.com/Sarilus-Blaise/documentation-page/issues).
+Feel free to check the [issues page](https://github.com/Sarilus-Blaise/product-landing-page/issues).
 
