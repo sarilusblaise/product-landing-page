@@ -12,44 +12,40 @@
 
 <body>
   <!--header-->
-  <header id="header" class="section">
-    <div class="nav-header">
-      <a class="logo-link">
-        <img src="/images/logo.svg" alt="barbencourt logo" id="header-img" class="logo">
-        <p class="logo-text">Barbancourt</p>
-      </a>
-      <button type="button" class="nav-toggle-btn" id="open-btn">
-        <i class="fas fa-bars" id="bar-open"></i>
-      </button>
-    </div>
+  <header id="header">
+    <a class="logo-link">
+      <img src="/images/logo.svg" alt="barbencourt logo" id="header-img" class="logo">
+      <p class="logo-text">Barbancourt</p>
+    </a>
     <!-- navbar-->
     <nav id="nav-bar">
       <ul class="links">
-        <li class="nav-item"><a href="#header" class="nav-link">Home</a></li>
         <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
         <li class="nav-item"><a href="#form" class="nav-link">Contact</a></li>
+        <li class="nav-item"><a href="#our-rum" class="nav-link">our rums</a></li>
       </ul>
     </nav>
-    <section class="home section">
-      <div class="home-text">
-        <h1><span>Barbancourt</span> the best rum in the Caribbean</h1>
-        <p>Barbancourt is a 100% Haitian rum, from sugar cane to distillation, from fermentation to bottling.</p>
-      </div>
-      <div class="home-img-container">
-        <img src="/images/rum1.png" alt="">
-        <img src="/images/rum2.png" alt="">
-        <img src="/images/rum3.png" alt="">
-      </div>
-    </section>
   </header>
+
+  <section class="home section">
+    <div class="home-text">
+      <h1><span>Barbancourt</span> the best rum in the Caribbean</h1>
+      <p>Barbancourt is a 100% Haitian rum, from sugar cane to distillation, from fermentation to bottling.</p>
+    </div>
+    <div class="home-img-container">
+      <img src="/images/rum1.png" alt="">
+      <img src="/images/rum2.png" alt="">
+      <img src="/images/rum3.png" alt="">
+    </div>
+  </section>
 
   <!--main section-->
   <main class="main">
 
 
     <!--about us section-->
-    <section class="about section" id="about">
-      <section>
+    <section class=" section" id="about">
+      <section class="about">
 
         <div class="about-item">
 
@@ -99,7 +95,7 @@
       </section>
 
       <!--our rums section-->
-      <section class="our-rums">
+      <section class="our-rums" id="our-rum">
         <div>
           <h1>Our special <span>rums</span></h1>
           <div class="rum-container">
@@ -110,19 +106,19 @@
             </div>
 
             <div class="rum">
-              <img src="/images/rum1.png" alt="">
+              <img src="/images/rum2.png" alt="">
               <p class="rum-paragraph"><span>THREE STARS</span>
                 Eau de vie of straw yellow color, brilliant and limpid.</p>
             </div>
 
             <div class="rum">
-              <img src="/images/rum1.png" alt="">
+              <img src="/images/rum3.png" alt="">
               <p class="rum-paragraph"><span>THREE STARS</span>
                 Eau de vie of straw yellow color, brilliant and limpid.</p>
             </div>
 
             <div class="rum">
-              <img src="/images/rum1.png" alt="">
+              <img src="/images/rum4.png" alt="">
               <p class="rum-paragraph"> <span>THREE STARS</span>
                 Eau de vie of straw yellow color, brilliant and limpid.</p>
             </div>
@@ -133,6 +129,7 @@
       <!-- video -->
       <article><video src="" id="video"></video></article>
     </section>
+    section
     <form action="https://www.freecodecamp.com/email-submit" method="post" id="form">
       <input type="email" name="email" id="email" placeholder="Enter your email">
       <input type="submit" id="submit" value="Submit">
@@ -188,9 +185,9 @@
       </div>
 
       <ul class="footer-link-container">
-        <li class="footer-link-item"><a href="" class="footer-link">Home</a></li>
-        <li class="footer-link-item"><a href="" class="footer-link">About</a></li>
-        <li class="footer-link-item"><a href="" class="footer-link">Contact</a></li>
+        <li class="footer-link-item"><a href="#about" class="footer-link">About</a></li>
+        <li class="footer-link-item"><a href="#contact" class="footer-link">Contact</a></li>
+        <li class="footer-link-item"><a href="#our-rum" class="footer-link">Our Rums</a></li>
       </ul>
     </div>
     <p>&copy; Barbancourt. All Rights Reserved.</p>
