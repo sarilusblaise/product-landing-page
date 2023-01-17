@@ -7,7 +7,7 @@ This project consisted in designing  a product landing page .This is one of the 
 * JS
 
 ## Live demo
-live demo not available yet.
+[click here](https://sarilusblaise.github.io/product-landing-page/)
 
 # Getting Started
 To get started with this project, follow the instructions below :
